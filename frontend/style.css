@@ -1,24 +1,115 @@
 body{
-    font-family: Arial;
-    background:#f4f4f4;
-    text-align:center;
+    font-family: Arial, sans-serif;
+    background: #1e1e2f;
+    color: white;
+    margin: 0;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: #7289da;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #7289da;
 }
 
 .container{
-    width:400px;
-    margin:auto;
-    background:white;
-    padding:20px;
-    border-radius:10px;
+    width: 500px;
+    margin: auto;
+    background: #2a2a40;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 input{
-    width:90%;
-    padding:10px;
-    margin:8px;
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
 }
 
 button{
-    padding:10px;
-    cursor:pointer;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #5865f2;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #4752c4;
+}
+
+hr{
+    border: 1px solid #444;
+    margin: 25px 0;
+}
+
+#produtos{
+    margin-top: 20px;
+}
+
+.produto{
+    background: #353552;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.produto h3{
+    margin-top: 0;
+    color: #8ea1ff;
+}
+
+.produto p{
+    margin: 5px 0;
+}
+.produto{
+    background: #353552;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.produto h3{
+    margin-top: 0;
+    color: #8ea1ff;
+}
+
+.acoes{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.editar{
+    background: #f39c12;
+}
+
+.editar:hover{
+    background: #d68910;
+}
+
+.excluir{
+    background: #e74c3c;
+}
+
+.excluir:hover{
+    background: #c0392b;
 }
